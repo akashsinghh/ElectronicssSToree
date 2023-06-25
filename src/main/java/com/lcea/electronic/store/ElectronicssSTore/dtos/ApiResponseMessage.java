@@ -2,10 +2,12 @@ package com.lcea.electronic.store.ElectronicssSTore.dtos;
 
 import lombok.*;
 import org.springframework.http.HttpStatus;
-@Data
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Getter
+@Setter
 public class ApiResponseMessage {
     private  String message;
     private boolean success;
